@@ -32,7 +32,7 @@ export DENO_DIR=$BUILD_DIR/.heroku/cache
 DENO=$BIN_DIR/deno
 
 ## Procfile
-if [ -f Procfile ]
+# if [ -f Procfile ]
 # then
 #   for WORD in $(cat Procfile)
 #   do
